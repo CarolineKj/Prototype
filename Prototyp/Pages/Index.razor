@@ -1,0 +1,31 @@
+﻿@page "/"
+
+
+    <div class="custompadding">
+        <label>Hur många transaktioner som har hämtats ut av mottagaren</label>
+        <div class="progress progress-bar-striped" style="height: 24px">
+            <div class="progress-one" role="progressbar" style="width: @maxValue%" aria-valuenow="100" aria-valuemin="@minValue" aria-valuemax="@maxValue"></div>
+        </div>
+
+        <label>Hur många transaktioner som har hämtats ut av mottagaren</label>
+        <div class="progress progress-bar-striped" style="height: 24px">
+            <div class="progress-one" role="progressbar" style="width: @maxValue%" aria-valuenow="100" aria-valuemin="@minValue" aria-valuemax="@maxValue"></div>
+        </div>
+
+        <label>Hur många transaktioner som har hämtats ut av mottagaren</label>
+        <div class="progress progress-bar-striped" style="height: 24px">
+            <div class="progress-one" role="progressbar" style="width: @maxValue%" aria-valuenow="100" aria-valuemin="@minValue" aria-valuemax="@maxValue"><label>@filesCollected av @totalFiles</label></div>
+        </div>
+
+    </div>
+
+    @code {
+        int filesCollected = 1232;
+        int totalFiles = 1232;
+
+        int currentvalue = 1100;
+
+        int maxValue = 50;
+        int minValue = 0;
+
+    }

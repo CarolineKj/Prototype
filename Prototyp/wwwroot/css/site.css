@@ -1,0 +1,60 @@
+
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#blazor-error-ui .dismiss {
+    cursor: pointer;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.5rem;
+}
+
+.custom-error {
+    margin: 0;
+    padding: 10px;
+    padding-top: 0;
+    background-color: white;
+}
+.custom-error .alert {
+    font-size: 0.8em;
+    padding: 15px !important;
+    border-radius: 3px;
+    margin: 0;
+}
+
+header a {
+    background-image: url(/images/uid-logo.svg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position-x: 0%;
+}
+
+.alert {
+    padding: 0 !important;
+}
+
+.alert.alert-with-icon {
+    padding: 15px !important;
+}
+
+.alert ul {
+    padding: 15px;
+    padding-inline-start: 55px;
+}
+
+.ck-editor__editable_inline {
+    min-height: 300px;
+}
+
+.hint .alert {
+    padding: 15px !important;
+}
